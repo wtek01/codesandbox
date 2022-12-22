@@ -1,12 +1,11 @@
-import "./styles.css";
 import { useForm } from "react-hook-form";
 
 export default function Form4() {
   const form = useForm({
     defaultValues: {
-      hello: "world"
+      hello: "world",
     },
-    mode: "onChange"
+    mode: "onChange",
   });
   const { register } = form;
 
